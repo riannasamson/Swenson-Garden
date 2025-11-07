@@ -18,7 +18,7 @@ map.on('load', function() {
     type: 'fill',
     source: 'property-area',
     paint: {
-      'fill-color': '#efe1c7',
+      'fill-color': '#c9b897',
       'fill-opacity': 1.0
     }
   });
