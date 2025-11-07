@@ -19,7 +19,7 @@ map.on('load', function() {
     source: 'property-area',
     paint: {
       'fill-color': '#efe1c7',
-      'fill-opacity': 0.8
+      'fill-opacity': 1.0
     }
   });
 });
