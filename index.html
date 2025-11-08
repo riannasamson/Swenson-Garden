@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Swenson-Garden</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css'>
-  </head>
-    
-  <body>
-    <div id="map"> </div> 
-    <h1> Swenson Community Garden</h1>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
-      <script  src="./script.js"></script>
-  </body>
-  
+<head>
+  <meta charset="UTF-8">
+  <title>Swenson-Garden</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css'>
+</head>
+
+<body>
+  <div id="container">
+    <div id="map-container">
+      <div id="map"></div>
+      <h1>Swenson Community Garden (Rianna Samson)</h1>
+    </div>
+
+    <div id="description">
+      <p>Swenson Community Garden was established in 1999 on this property owned by Heritage Presbyterian Church. Dr. Ed Swenson, the garden’s founder, wanted to strengthen community resilience by increasing access to sustainable, regional sources of food.</p>
+      <p>As part of Sustainable Solano’s Permaculture Design Course, my team of four is planning a project to enhance and expand the garden using permaculture principles to keep Dr. Swenson’s mission alive.</p>
+      <p>Click on different parts of the map to learn more about the property!</p>
+      <p>This cartographic data was interpreted from Google Satellite (2025).</p>
+    </div>
+  </div>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>
